@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="588.0" style="-fx-background-color: #AAB6FB;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cyberp.LoggedInController">
+   <children>
+      <Button fx:id="button_logout" layoutX="89.0" layoutY="310.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="195.0" style="-fx-background-color: #FB7B8E;" text="logout" textFill="#0b0d13">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Button>
+      <TableView fx:id="tableview" layoutX="89.0" layoutY="76.0" prefHeight="236.0" prefWidth="411.0" style="-fx-background-color: #ffefd5;">
+         <columns>
+         </columns></TableView>
+      <Button fx:id="button_add" layoutX="284.0" layoutY="312.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="216.0" style="-fx-background-color: #FAA7B8;" text="Add" textFill="#0b0d13">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Button>
+      <Button fx:id="refresh" layoutY="60.0" mnemonicParsing="false" style="-fx-background-color: #6096FD;" text="refresh" textFill="#0b0d13">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Button>
+      <Button fx:id="bonus" layoutX="539.0" layoutY="346.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="34.0" style="-fx-background-color: null;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Pane layoutY="-1.0" prefHeight="55.0" prefWidth="614.0" style="-fx-background-color: #6f00ff;">
+         <children>
+            <Label fx:id="lab_username" layoutX="6.0" layoutY="5.0" prefHeight="18.0" prefWidth="258.0" text="user name:  " textFill="#0b0d13">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lab_password" layoutX="6.0" layoutY="33.0" prefHeight="18.0" prefWidth="298.0" text="password:  " textFill="#0b0d13">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

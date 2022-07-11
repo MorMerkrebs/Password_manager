@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.cyberp.SingUpController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: mediumslateblue;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="218.0" fitWidth="157.0" layoutX="22.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../image/3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: lavender;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="138.0" layoutY="34.0" text="Register page">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="87.0" text="Username">
+               <font>
+                  <Font name="Arial Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="144.0" text="Password">
+               <font>
+                  <Font name="Arial Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="200.0" text="Confirm Password">
+               <font>
+                  <Font name="Arial Italic" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="29.0" layoutY="107.0" prefHeight="26.0" prefWidth="230.0" promptText="Username" />
+            <PasswordField fx:id="tf_password" layoutX="29.0" layoutY="164.0" prefHeight="26.0" prefWidth="230.0" promptText="Password" />
+            <PasswordField fx:id="tf_confirm_password" layoutX="29.0" layoutY="220.0" prefHeight="26.0" prefWidth="230.0" promptText="Confirm Password" />
+            <Button fx:id="button_register" layoutX="143.0" layoutY="275.0" mnemonicParsing="false" text="Register!!!">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_back" layoutX="328.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: transperent;" text="Back" textFill="#0c00ef">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
